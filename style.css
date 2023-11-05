@@ -1,0 +1,81 @@
+/*.box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+    
+    /*display:flex;
+    justify-content: center;/*horizontal alignment of box
+    align-items: center;vertical alignment of box
+}*/ 
+
+#box1
+{
+    position:absolute;
+    /*top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:1400px;
+    height:500px;*/
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    background-color:hsl(212, 45%, 89%);
+    /*box-shadow: 0px 20px 30px rgb(225, 222, 222);*/
+    
+}
+
+#box2
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:500px;
+    width:320px;
+    background-color:white;
+    border-radius: 15px;
+    
+}
+
+#img1{
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    display:flow-roots;
+    border-radius:30px;
+    width:285px; 
+    height:auto;
+    padding:20px;    
+}
+
+@font-face{
+    src:url(fonts/Outfit-VariableFont_wght.ttf);
+    font-family: project;
+}
+
+#p1{
+    font-size: 22px; 
+    text-align: center; 
+    color: black; 
+    font-family: project;
+    font-weight:700;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right:30px;
+
+}
+
+#p2{
+    font-size: 14px; 
+    text-align: center; 
+    color: hsl(228, 45%, 44%); 
+    font-family: project;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right:30px;
+}
+
+ 
